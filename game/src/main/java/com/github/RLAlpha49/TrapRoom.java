@@ -16,6 +16,8 @@ public class TrapRoom implements RoomBehavior {
             case 3:
                 this.score = -30;  // large penalty
                 break;
+            case 4:
+                break;
             default:
                 throw new IllegalArgumentException("Invalid level: " + level);
         }
